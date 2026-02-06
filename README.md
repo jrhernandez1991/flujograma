@@ -1,4 +1,5 @@
 # flujograma
+```mermaid
 flowchart TD
   A[Inicio: Decisión de formalizar TechFix Express] --> B{"Definir forma jurídica"}
   
