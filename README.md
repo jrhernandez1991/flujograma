@@ -1,5 +1,4 @@
 # flujograma
-```mermaid
 flowchart TD
   A[Inicio: Decisión de formalizar TechFix Express] --> B{"Definir forma jurídica"}
   
@@ -30,9 +29,9 @@ flowchart TD
   classDef decision fill:#f9f,stroke:#333,stroke-width:2px
   classDef process fill:#bbf,stroke:#333,stroke-width:1px
   classDef start fill:#9f6,stroke:#333,stroke-width:2px
-  classDef end fill:#f96,stroke:#333,stroke-width:2px
+  classDef final fill:#f96,stroke:#333,stroke-width:2px
   
-  class A,Q start
+  class A start
   class B,M decision
   class C,D,E,F,G,H,I,J,K,L,N,O,P process
-  class Q end
+  class Q final
